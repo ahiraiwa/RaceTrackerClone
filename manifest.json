@@ -1,0 +1,18 @@
+{
+   "app": {
+      "background": {
+         "scripts": [ "appconfig.js" ]
+      }
+   },
+   "description": "FPV Race Tracker",
+   "icons": {
+      "128": "img/logo128_2.png",
+      "256": "img/logo256_2.png"
+   },
+   "manifest_version": 2,
+   "minimum_chrome_version": "42.0.2311",
+   "name": "FPV Race Tracker(Japanese Version)",
+   "permissions": [ "unlimitedStorage", "serial", "system.display", "tts", "http://localhost/", "http://cloud.fpvracetracker.com/", "https://cloud.fpvracetracker.com/", "identity", "identity.email" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.4.0.0"
+}
